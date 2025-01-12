@@ -27,67 +27,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c28d691-01d4-41d1-a142-c6fe2f617945" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cross.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_with_close_button.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/Hauptprogramm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/Hauptprogramm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/geld/Waehrung.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/geld/Waehrung.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Aktie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Aktie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Beobachter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Beobachter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Geldbetrag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Geldbetrag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/GesperrtException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/GesperrtException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Kontoart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Kontoart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Kunde$Zerstoerer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Kunde$Zerstoerer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Kunde.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/classes/bankprojekt/verarbeitung/Kunde.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Abgaben/Bank/target/test-classes/bankprojekt/verarbeitung/GeldbetragTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Abgaben/Bank/target/test-classes/bankprojekt/verarbeitung/GeldbetragTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/core/GestureDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/core/GestureDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/core/MotionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/core/MotionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/androidTestResultsUserPreferences.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/comvi/ui/MainActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/comvi/core/DistanceCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/comvi/core/GestureDetectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/comvi/data/LocalStorageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/comvi/data/NoteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/comvi/ExampleInstrumentedTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/data/LocalStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/data/LocalStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/location/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/location/LocationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/sensor/AccelerometerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/sensor/AccelerometerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/ui/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/ui/MotionFeedbackView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/ui/MotionFeedbackView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/ui/NoteListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/comvi/ui/NoteListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/HandModelViewer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/model/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/model/ModelLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/motion/HallFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/motion/MotionDataHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/motion/MotionFrames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/motion/MpuFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/renderer/Renderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/shader/ShaderProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/java/usb/USBHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/resources/RiggedLowpolyHand.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/resources/bewegungsdaten.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/resources/hall_sensor_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/resources/quaternion_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/src/main/resources/quaternion_high_precision_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/HandModelViewer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/RiggedLowpolyHand.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/bewegungsdaten.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/hall_sensor_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/model/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/model/ModelLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/motion/HallFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/motion/MotionDataHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/motion/MotionFrames.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/motion/MpuFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/quaternion_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/quaternion_high_precision_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/renderer/Renderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/shader/ShaderProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/classes/usb/USBHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Handschuh/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Uebungen/Bilddaten/target/site/taglist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Uebungen/Bilddaten/target/site/taglist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/comvi/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +68,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
           <activation />
         </task>
         <projects_view>
@@ -145,9 +109,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,26 +129,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;ToolWindow.Running Devices.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gg1/Documents/Code/Java/Projeke/ComVi&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;device.mirroring&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Android App.app.executor": "Run",
+    "Android Instrumented Tests.MainActivityTest.executor": "Run",
+    "Android Instrumented Tests.Tests in 'com.example.comvi.ui'.executor": "Run",
+    "Android Instrumented Tests.testDialogLayout().executor": "Run",
+    "Android Instrumented Tests.testDialogTitleAndClose().executor": "Run",
+    "Android Instrumented Tests.testEmptyDialogState().executor": "Run",
+    "Android Instrumented Tests.testListNotesButtonDisplay().executor": "Run",
+    "Android Instrumented Tests.testListNotesButtonInitialState().executor": "Run",
+    "Android Instrumented Tests.testListNotesButtonLayout().executor": "Run",
+    "Android Instrumented Tests.testMotionFeedbackViewLayout().executor": "Run",
+    "Android Instrumented Tests.testNoteInput().executor": "Run",
+    "Android Instrumented Tests.testNoteInputAndClear().executor": "Run",
+    "Android Instrumented Tests.testNoteInputAttributes().executor": "Run",
+    "Android Instrumented Tests.testRootLayoutFocusability().executor": "Run",
+    "Gradle.ComViUnitTests.executor": "Run",
+    "Gradle.ComViUnitTests.testDropMotionDetection.executor": "Run",
+    "Gradle.ComViUnitTests.testDropMotionSequence.executor": "Run",
+    "Gradle.ComViUnitTests.testDropMotionThresholds.executor": "Run",
+    "Gradle.ComViUnitTests.testEdgeCasesInRadius.executor": "Run",
+    "Gradle.ComViUnitTests.testEmptyAndNullCases.executor": "Run",
+    "Gradle.ComViUnitTests.testIncompleteDropMotion.executor": "Run",
+    "Gradle.ComViUnitTests.testLocalStorageEmptyPreferences.executor": "Run",
+    "Gradle.ComViUnitTests.testLocalStorageSaveAndRetrieve.executor": "Run",
+    "Gradle.ComViUnitTests.testNoMotionDetection.executor": "Run",
+    "Gradle.ComViUnitTests.testNoteCreationAndGetters.executor": "Run",
+    "Gradle.ComViUnitTests.testNoteInputViewEmptyText.executor": "Run",
+    "Gradle.ComViUnitTests.testNoteInputViewOperations.executor": "Run",
+    "Gradle.ComViUnitTests.testNoteToString.executor": "Run",
+    "Gradle.ComViUnitTests.testNotesInRadius.executor": "Run",
+    "Gradle.DistanceCalculatorTest.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.GestureDetectorTest.executor": "Run",
+    "Gradle.GestureDetectorTest.tesatDropMotionDetection.executor": "Run",
+    "Gradle.GestureDetectorTest.testBufferWraparound.executor": "Run",
+    "Gradle.GestureDetectorTest.testDropMotionDetected.executor": "Run",
+    "Gradle.GestureDetectorTest.testDropMotionDetection.executor": "Run",
+    "Gradle.GestureDetectorTest.testDropMotionThresholds.executor": "Run",
+    "Gradle.GestureDetectorTest.testDropWithoutYAxisThreshold.executor": "Run",
+    "Gradle.GestureDetectorTest.testDropaMotionDetection.executor": "Run",
+    "Gradle.GestureDetectorTest.testIncompleteDropMotion.executor": "Run",
+    "Gradle.GestureDetectorTest.testIncompleteDropPattern.executor": "Run",
+    "Gradle.GestureDetectorTest.testNoMotionDetected.executor": "Run",
+    "Gradle.GestureDetectorTest.testNoMotionDetection.executor": "Run",
+    "Gradle.LocalStorageTest.executor": "Run",
+    "Gradle.LocalStorageTest.getNotesReturnsStoredNotes.executor": "Run",
+    "Gradle.LocalStorageTest.getNotesWhenEmptyReturnsEmptyList.executor": "Run",
+    "Gradle.LocalStorageTest.saveNotePreservesExistingNotes.executor": "Run",
+    "Gradle.LocalStorageTest.saveNoteStoresNoteInPreferences.executor": "Run",
+    "Gradle.NoteTest.executor": "Run",
+    "Gradle.Tests in 'com.example.comvi'.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindow.Running Devices.ShowToolbar": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gg1/Documents/Code/Java/Projeke/ComVi",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "device.mirroring"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
@@ -196,7 +209,7 @@
       <recent name="com.example.comvi.sensor" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android Instrumented Tests.Tests in 'com.example.comvi.ui'">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="ComVi.app.main" />
       <option name="DEPLOY" value="true" />
@@ -265,6 +278,283 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainActivityTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="ComVi.app.androidTest" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.comvi.ui.MainActivityTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'com.example.comvi.ui'" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="ComVi.app.androidTest" />
+      <option name="TESTING_TYPE" value="1" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.example.comvi.ui" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testListNotesButtonLayout()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="ComVi.app.androidTest" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="testListNotesButtonLayout" />
+      <option name="CLASS_NAME" value="com.example.comvi.ui.MainActivityTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testRootLayoutFocusability()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="ComVi.app.androidTest" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="testRootLayoutFocusability" />
+      <option name="CLASS_NAME" value="com.example.comvi.ui.MainActivityTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'com.example.comvi'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.comvi.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.Tests in 'com.example.comvi.ui'" />
+        <item itemvalue="Gradle.Tests in 'com.example.comvi'" />
+        <item itemvalue="Android Instrumented Tests.testListNotesButtonLayout()" />
+        <item itemvalue="Android Instrumented Tests.MainActivityTest" />
+        <item itemvalue="Android Instrumented Tests.testRootLayoutFocusability()" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
