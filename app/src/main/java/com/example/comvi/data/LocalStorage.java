@@ -19,8 +19,8 @@ import java.util.List;
  */
 public class LocalStorage {
 
-    private static final String PREFS_NAME = "MyLocations";
-    private static final String KEY_LOCATIONS = "locations";
+    protected static final String PREFS_NAME = "MyLocations";
+    protected static final String KEY_LOCATIONS = "locations";
     private final SharedPreferences sharedPreferences;
     private final Gson gson;
 
