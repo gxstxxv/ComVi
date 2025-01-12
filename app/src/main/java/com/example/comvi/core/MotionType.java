@@ -10,5 +10,6 @@ package com.example.comvi.core;
 public enum MotionType {
     DROP,
     PICKUP,
+    SHAKE,
     NONE
 }
