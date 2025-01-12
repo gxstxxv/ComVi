@@ -79,7 +79,6 @@ public class AccelerometerHandler implements SensorEventListener {
     }
 
     /**
-     * TODO: test
      * Calibrates the given accelerometer values by subtracting the offset values.
      * This helps in normalizing the sensor data based on the initial baseline.
      *

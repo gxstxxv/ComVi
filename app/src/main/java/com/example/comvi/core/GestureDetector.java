@@ -19,7 +19,6 @@ public class GestureDetector {
     private int bufferIndex = 0;
 
     /**
-     * TODO: add MotionType.PICKUP detection
      * Detects the type of motion based on the given accelerometer values.
      *
      * @param values the accelerometer values, where values[0] is the X-axis, values[1] the Y-axis and values[2] the Z-axis

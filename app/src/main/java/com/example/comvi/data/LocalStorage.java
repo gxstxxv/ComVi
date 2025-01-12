@@ -36,11 +36,11 @@ public class LocalStorage {
     }
 
     /**
-     * TODO: implement correctly and test it
      * Deletes the specified note from local storage.
      *
      * @param note the note to be deleted
      */
+    @Deprecated
     public void deleteNote(Note note) {
         List<Note> notes = getNotes();
         notes.remove(note);
