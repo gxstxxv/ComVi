@@ -39,6 +39,10 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.mockito.android)
+    androidTestImplementation(libs.rules)
+    androidTestImplementation(libs.runner)
 }
