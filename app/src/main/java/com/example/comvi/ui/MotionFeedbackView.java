@@ -14,7 +14,6 @@ import android.view.animation.DecelerateInterpolator;
 import androidx.annotation.NonNull;
 
 /**
- * TODO: check attributes
  * The {@code MotionFeedbackView} class is a custom view that provides visual feedback
  * for motion events by displaying a movable ball within a confined area.
  * It reacts to sensor data to update the ball's position and offers an animation
@@ -52,7 +51,7 @@ public class MotionFeedbackView extends View {
         ballPaint = new Paint();
         ballPaint.setColor(Color.BLACK);
         ballPaint.setStyle(Paint.Style.STROKE);
-        ballPaint.setStrokeWidth(4); // TODO: set it to normal-/boldStrokeWidth
+        ballPaint.setStrokeWidth(normalStrokeWidth);
         ballPaint.setAntiAlias(true);
         ballPaint.setAlpha(220);
     }
@@ -61,17 +60,17 @@ public class MotionFeedbackView extends View {
      * Called when the size of the view has changed. Used to initialize the center and radius of
      * the movable area.
      *
-     * @param w    the current width of the view
-     * @param h    the current height of the view
-     * @param oldw the old width of the view
-     * @param oldh the old height of the view
+     * @param width     the current width of the view
+     * @param height    the current height of the view
+     * @param oldWidth  the old width of the view
+     * @param oldHeight the old height of the view
      */
     @Override
-    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-        super.onSizeChanged(w, h, oldw, oldh);
-        centerX = w / 2f;
-        centerY = h / 2f;
-        outerRadius = Math.min(w, h) / 1.8f - ballRadiusDp;
+    protected void onSizeChanged(int width, int height, int oldWidth, int oldHeight) {
+        super.onSizeChanged(width, height, oldWidth, oldHeight);
+        centerX = width / 2f;
+        centerY = height / 2f;
+        outerRadius = Math.min(width, height) / 1.8f - ballRadiusDp;
         ballX = centerX;
         ballY = centerY;
         filteredX = 0;
