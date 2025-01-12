@@ -8,6 +8,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
@@ -38,16 +39,26 @@ public class LocationService implements LocationAPI {
     /**
      * Constructs a new {@code LocationService} with the provided context.
      *
-     * @param context the context used to access location services and permissions
+     * @param context               the context used to access location services and permissions
+     * @param requestLocationButton the button that, when clicked, requests the location
      */
-    public LocationService(Context context) {
+    public LocationService(Context context, Button requestLocationButton) {
         this.context = context;
         this.fusedLocationClient = LocationServices.getFusedLocationProviderClient(context);
         this.locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+        addListener(requestLocationButton);
     }
 
     /**
-     * TODO: test method after changing deprecated methods
+     * Adds a click listener to the request location button to trigger the request location method.
+     *
+     * @param requestLocationButton the button to which the listener is added
+     */
+    private void addListener(Button requestLocationButton) {
+        requestLocationButton.setOnClickListener(v -> requestLocation((LocationResultCallback) context));
+    }
+
+    /**
      * Requests the current location using the Fused Location Provider.
      *
      * @param callback the callback to receive the location result
@@ -62,8 +73,8 @@ public class LocationService implements LocationAPI {
         final long intervalMillis = 10000;
         final long minUpdateIntervalMillis = 5000;
         final int maxUpdates = 1;
-        Builder locationRequestBuilder = new Builder(Priority.PRIORITY_HIGH_ACCURACY, intervalMillis);
-        LocationRequest locationRequest = locationRequestBuilder.setMinUpdateIntervalMillis(minUpdateIntervalMillis).setMaxUpdates(maxUpdates).build();
+        Builder builder = new Builder(Priority.PRIORITY_HIGH_ACCURACY, intervalMillis).setMinUpdateIntervalMillis(minUpdateIntervalMillis).setMaxUpdates(maxUpdates);
+        LocationRequest locationRequest = builder.build();
 
         fusedLocationClient.requestLocationUpdates(locationRequest, new LocationCallback() {
             @Override
@@ -108,8 +119,12 @@ public class LocationService implements LocationAPI {
             }
         };
 
-        final long minTimeMs = 10000;
-        final float minDistanceM = 20;
+        /*
+        minTimeMs = 10000;
+        minDistanceM = 20;
+         */
+        final long minTimeMs = 5000;
+        final float minDistanceM = 10;
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, minTimeMs, minDistanceM, locationListener);
     }
 
