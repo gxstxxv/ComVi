@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
     private NoteListView noteListView;
 
     private Button listNotesButton;
+    private Button requestLocationButton;
 
     /**
      * Initializes the activity, setting up views and managers.
@@ -58,6 +59,8 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
 
         initializeViews();
         initializeManagers();
+
+        locationService.requestLocation(this);
     }
 
     /**
@@ -70,7 +73,8 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
         noteInputView = new NoteInputView(editText);
         rootView.setOnTouchListener(new TouchListener(this, editText));
         listNotesButton = findViewById(R.id.list_notes_button);
-        noteListView = new NoteListView(listNotesButton, this);
+        noteListView = new NoteListView(this, listNotesButton);
+        requestLocationButton = findViewById(R.id.request_location_button);
     }
 
     /**
@@ -83,15 +87,15 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
         addOnClickRecalibrate(rootView);
         gestureDetector = new GestureDetector();
         distanceCalculator = new DistanceCalculator();
-        locationService = new LocationService(this);
+        locationService = new LocationService(this, requestLocationButton);
         localStorage = new LocalStorage(this);
     }
 
     /**
-     * Fügt einen OnLongClickListener zur View hinzu, der bei langem Klick
-     * eine Vibration auslöst und den Beschleunigungsmesser neu kalibriert.
+     * Attaches an OnLongClickListener to the view, triggering a vibration
+     * and recalibrating the accelerometer on a long click.
      *
-     * @param view Die View, die den Listener erhält.
+     * @param view the view to which the listener is added
      */
     private void addOnClickRecalibrate(View view) {
         view.setOnLongClickListener(v -> {
@@ -152,9 +156,9 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
     public void onLocationResult(Location location) {
         if (location == null) return;
 
-        Note note = new Note(noteInputView.getNoteText(), location.getLatitude(), location.getLongitude());
-        localStorage.saveNote(note);
-        noteInputView.clearEditText();
+        if (!noteInputView.getNoteText().isEmpty())
+            updateLocalStorage(location);
+
         updateNoteListView(location);
     }
 
@@ -169,6 +173,18 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
     }
 
     /**
+     * Saves a new note with the current text and specified location to local storage,
+     * then clears the input field.
+     *
+     * @param location the location used to create the note
+     */
+    private void updateLocalStorage(Location location) {
+        Note note = new Note(noteInputView.getNoteText(), location.getLatitude(), location.getLongitude());
+        localStorage.saveNote(note);
+        noteInputView.clearEditText();
+    }
+
+    /**
      * Updates the note list view based on the current location, filtering notes in proximity.
      *
      * @param location the current location
@@ -176,6 +192,7 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
     private void updateNoteListView(Location location) {
         List<Note> notesInRadius = distanceCalculator.getNotesInRadius(location, localStorage.getNotes());
         noteListView.setNotesInRadius(notesInRadius);
+        noteListView.updateDialog();
         listNotesButton.setText(String.valueOf(notesInRadius.size()));
     }
 }
