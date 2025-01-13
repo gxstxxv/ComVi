@@ -63,6 +63,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/circle"
+        android:drawableTop="@drawable/ic_location"
         android:text=""
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/motion_feedback_view"
