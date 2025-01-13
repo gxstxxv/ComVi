@@ -42,15 +42,15 @@ public class MainActivityTest {
      */
     @Test
     public void testNoteInputAttributes() {
-        onView(withId(R.id.textInput))
+        onView(withId(R.id.text_input))
                 .check(matches(isDisplayed()))
                 .check(matches(isEnabled()));
 
         String testNote = "Line 1\nLine 2\nLine 3";
-        onView(withId(R.id.textInput))
+        onView(withId(R.id.text_input))
                 .perform(typeText(testNote), closeSoftKeyboard());
 
-        onView(withId(R.id.textInput))
+        onView(withId(R.id.text_input))
                 .check(matches(withText(testNote)));
     }
 
@@ -59,7 +59,7 @@ public class MainActivityTest {
      */
     @Test
     public void testMotionFeedbackViewLayout() {
-        onView(withId(R.id.motionFeedbackView))
+        onView(withId(R.id.motion_feedback_view))
                 .check(matches(isDisplayed()));
     }
 
@@ -115,12 +115,12 @@ public class MainActivityTest {
                 .check(matches(isEnabled()));
 
         String testInput = "Test input";
-        onView(withId(R.id.textInput))
+        onView(withId(R.id.text_input))
                 .perform(typeText(testInput), closeSoftKeyboard());
 
         onView(withId(R.id.root_layout))
                 .perform(click());
-        onView(withId(R.id.textInput))
+        onView(withId(R.id.text_input))
                 .check(matches(withText(testInput)));
     }
 

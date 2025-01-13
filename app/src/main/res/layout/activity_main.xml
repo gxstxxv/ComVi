@@ -12,7 +12,7 @@
 
 
     <EditText
-        android:id="@+id/textInput"
+        android:id="@+id/text_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -32,7 +32,7 @@
         tools:ignore="Autofill,LabelFor,VisualLintOverlap" />
 
     <com.example.comvi.ui.MotionFeedbackView
-        android:id="@+id/motionFeedbackView"
+        android:id="@+id/motion_feedback_view"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="@drawable/circle"
@@ -50,7 +50,7 @@
         android:layout_height="50dp"
         android:background="@drawable/circle"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/motionFeedbackView"
+        app:layout_constraintBottom_toTopOf="@+id/motion_feedback_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
         android:background="@drawable/circle"
         android:text=""
         android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@+id/motionFeedbackView"
+        app:layout_constraintBottom_toTopOf="@+id/motion_feedback_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"

@@ -68,8 +68,8 @@ public class MainActivity extends AppCompatActivity implements SensorAPI.SensorE
      */
     private void initializeViews() {
         rootView = findViewById(R.id.root_layout);
-        motionFeedbackView = findViewById(R.id.motionFeedbackView);
-        EditText editText = findViewById(R.id.textInput);
+        motionFeedbackView = findViewById(R.id.motion_feedback_view);
+        EditText editText = findViewById(R.id.text_input);
         noteInputView = new NoteInputView(editText);
         rootView.setOnTouchListener(new TouchListener(this, editText));
         listNotesButton = findViewById(R.id.list_notes_button);
