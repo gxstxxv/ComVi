@@ -23,7 +23,6 @@ public class Note {
         this.content = content;
         this.latitude = latitude;
         this.longitude = longitude;
-        System.out.println(this);
     }
 
     /**
